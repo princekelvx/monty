@@ -1,7 +1,6 @@
 #include "monty.h"
 
 unsigned int line_number = 0;
-
 /**
  * main - driver programme
  * @argc: argument count

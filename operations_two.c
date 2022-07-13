@@ -98,3 +98,15 @@ void _pop(stack_t **stack, unsigned int n)
 
 	free(node);
 }
+
+/**
+ * _queue - prints the top
+ * @stack: stack head
+ * @line_number: line_number
+ * Return: no return
+*/
+void _queue(stack_t **stack, unsigned int line_number)
+{
+	(void)stack;
+	(void)line_number;
+}

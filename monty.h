@@ -43,7 +43,6 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-
 stack_t *build_list(stack_t *head);
 void call(char **tokens, stack_t **stack);
 char **tokenize(char *buffer);
@@ -65,4 +64,5 @@ void _rotl(stack_t **stack, unsigned int line_number);
 void _rotr(stack_t **stack, unsigned int line_number);
 void is_valid(char **token, stack_t **stack);
 void free_stack(stack_t **stack);
+void _queue(stack_t **stack, unsigned int line_number);
 #endif

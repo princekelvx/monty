@@ -16,6 +16,7 @@ static instruction_t ops[] = {
 		{"pstr", _pstr},
 		{"rotl", _rotl},
 		{"rotr", _rotr},
+		{"queue", _queue},
 		{NULL, NULL}
 	};
 /**
