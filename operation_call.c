@@ -17,7 +17,7 @@ static instruction_t ops[] = {
 		{"rotl", _rotl},
 		{"rotr", _rotr},
 		{"queue", _queue},
-		{"stack". _stack},
+		{"stack", _stack},
 		{NULL, NULL}
 	};
 /**
